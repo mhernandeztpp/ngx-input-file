@@ -32,7 +32,7 @@
   },
   "private": false,
   "peerDependencies": {
-    "@angular/cdk": "^10.2.7",
+    "@angular/cdk": "^13.0.0",
     "@angular/material": "^13.0.0",
     "@angular/animations": "^13.0.0",
     "@angular/common": "^13.0.0",

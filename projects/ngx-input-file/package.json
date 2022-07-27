@@ -2,12 +2,12 @@
     "name": "ngx-input-file",
     "version": "10.2.0",
     "peerDependencies": {
-        "@angular/cdk": "^10.2.7",
-        "@angular/material": "^10.2.7",
-        "@angular/animations": "^10.2.3",
-        "@angular/common": "~10.2.3",
-        "@angular/core": "~10.2.3",
-        "@angular/forms": "~10.2.3"
+        "@angular/cdk": "^13.0.0",
+        "@angular/material": "^13.0.0",
+        "@angular/animations": "^13.0.0",
+        "@angular/common": "^13.0.0",
+        "@angular/core": "^13.0.0",
+        "@angular/forms": "^13.0.0"
     },
     "dependencies": {
       "tslib": "^2.0.0"

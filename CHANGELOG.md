@@ -1,3 +1,6 @@
+### [11.0.0]
+- Release 11.0.0 - support Angular 13.
+
 ### [10.2.0]
 - Release 10.2.0 - support Angular 10.
 
@@ -21,7 +24,7 @@
 
 ### [7.0.1]
 - Remove disabled guard on writeValue
-- Issue #16 ngx-input-file with reactive forms 
+- Issue #16 ngx-input-file with reactive forms
 
 ### [7.0.0]
 - Update dependencies and support Angular 7.
@@ -42,7 +45,7 @@
 ### [2.1.0]
 - Drop attribute InputId (auto generated now)
 - Updating the dependencies
-- Adding of link options to add an InputFile from an url 
+- Adding of link options to add an InputFile from an url
 - Drop class InputFile to an interface
 - Issue #12 How to override style and icon?
 
@@ -66,5 +69,5 @@
 - Issue #7 - Switch BrowserModule Dependency to Common Module
 ### [1.0.2]
 - Drop font awesome 4 support to font awesome 5
-### [1.0.1] 
+### [1.0.1]
 - Fix issue #3

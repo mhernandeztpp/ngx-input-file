@@ -1,6 +1,6 @@
 {
   "name": "ngx-input-file",
-  "version": "11.0.0",
+  "version": "13.0.0",
   "description": "Angular Input File Component",
   "license": "MIT",
   "repository": {
@@ -32,21 +32,21 @@
   },
   "private": false,
   "peerDependencies": {
-    "@angular/cdk": "^13.0.0",
-    "@angular/material": "^13.0.0",
     "@angular/animations": "^13.0.0",
+    "@angular/cdk": "^13.0.0",
     "@angular/common": "^13.0.0",
     "@angular/core": "^13.0.0",
-    "@angular/forms": "^13.0.0"
+    "@angular/forms": "^13.0.0",
+    "@angular/material": "^13.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.0.0",
     "@angular/animations": "^13.0.0",
-    "@angular/cli": "^9.1.12",
-    "@angular/compiler-cli": "^13.0.0",
     "@angular/cdk": "^13.0.0",
+    "@angular/cli": "^13.0.0",
     "@angular/common": "^13.0.0",
     "@angular/compiler": "^13.0.0",
+    "@angular/compiler-cli": "^13.0.0",
     "@angular/core": "^13.0.0",
     "@angular/forms": "^13.0.0",
     "@angular/language-service": "~10.2.3",

@@ -197,7 +197,8 @@ export class InputFileComponent implements ControlValueAccessor, OnInit {
      * @param index
      * @param fileInput
      */
-    public onReplaceFile(fileList: FileList, index: number, button: MatButton, fileInput?: HTMLInputElement): void {
+    public onReplaceFile(e: Event, index: number, button: MatButton, fileInput?: HTMLInputElement): void {
+        const fileList: FileList = (e.currentTarget as HTMLInputElement).files;
         if (!this.disabled) {
             // Copies the array without reference.
             const files = this.files.slice();
@@ -220,7 +221,8 @@ export class InputFileComponent implements ControlValueAccessor, OnInit {
      * Writes the value.
      * @param fileList
      */
-    public onSelectFile(fileList: FileList, button: MatButton): void {
+    public onSelectFile(e: Event, button: MatButton): void {
+        const fileList: FileList = (e.currentTarget as HTMLInputElement).files;
         if (!this.disabled) {
             button.ripple.fadeOutAll();
             // Copies the array without reference.

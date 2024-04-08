@@ -27,7 +27,7 @@
     <button mat-button class="secondary-button" type="button" [disabled]="disabled" (click)="onLink()" *ngIf="linkEnabled">
         <mat-icon>{{ iconLink }}</mat-icon>
     </button>
-    <input [id]="id" [accept]="fileAccept" hidden type="file" [attr.multiple]="fileLimit > 1 ? true : null" #fileInput (change)="onSelectFile($event.target.files, selectButton)">
+    <input [id]="id" [accept]="fileAccept" hidden type="file" [attr.multiple]="fileLimit > 1 ? true : null" #fileInput (change)="onSelectFile($event, selectButton)">
 </ng-template>
 
 <ng-template #fileTemplate let-file let-index="index">
@@ -42,7 +42,7 @@
     <button mat-button class="secondary-button" type="button" (click)="onDeleteFile(index)" [disabled]="disabled">
         <mat-icon>{{ iconDelete }}</mat-icon>
     </button>
-    <input [accept]="fileAccept" hidden type="file" #fileReplace (change)="onReplaceFile($event.target.files, index, replaceButton, fileReplace)">
+    <input [accept]="fileAccept" hidden type="file" #fileReplace (change)="onReplaceFile($event, index, replaceButton, fileReplace)">
 </ng-template>
 
 <ng-template #linkTemplate>

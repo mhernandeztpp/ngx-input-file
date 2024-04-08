@@ -1,0 +1,13 @@
+export const defaultSettings = {
+    classAnimation: 'bounce-in',
+    fileAccept: '*',
+    fileLimit: 1,
+    iconAdd: 'add',
+    iconDelete: 'delete',
+    iconFile: 'insert_drive_file',
+    iconLink: 'link',
+    linkEnabled: false,
+    placeholderLink: 'Link',
+    sizeLimit: null
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVmYXVsdC5zZXR0aW5ncy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL25neC1pbnB1dC1maWxlL3NyYy9saWIvc2V0dGluZ3MvZGVmYXVsdC5zZXR0aW5ncy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQUMsTUFBTSxlQUFlLEdBQUc7SUFDM0IsY0FBYyxFQUFFLFdBQVc7SUFDM0IsVUFBVSxFQUFFLEdBQUc7SUFDZixTQUFTLEVBQUUsQ0FBQztJQUNaLE9BQU8sRUFBRSxLQUFLO0lBQ2QsVUFBVSxFQUFFLFFBQVE7SUFDcEIsUUFBUSxFQUFFLG1CQUFtQjtJQUM3QixRQUFRLEVBQUUsTUFBTTtJQUNoQixXQUFXLEVBQUUsS0FBSztJQUNsQixlQUFlLEVBQUUsTUFBTTtJQUN2QixTQUFTLEVBQUUsSUFBSTtDQUNsQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGRlZmF1bHRTZXR0aW5ncyA9IHtcbiAgICBjbGFzc0FuaW1hdGlvbjogJ2JvdW5jZS1pbicsXG4gICAgZmlsZUFjY2VwdDogJyonLFxuICAgIGZpbGVMaW1pdDogMSxcbiAgICBpY29uQWRkOiAnYWRkJyxcbiAgICBpY29uRGVsZXRlOiAnZGVsZXRlJyxcbiAgICBpY29uRmlsZTogJ2luc2VydF9kcml2ZV9maWxlJyxcbiAgICBpY29uTGluazogJ2xpbmsnLFxuICAgIGxpbmtFbmFibGVkOiBmYWxzZSxcbiAgICBwbGFjZWhvbGRlckxpbms6ICdMaW5rJyxcbiAgICBzaXplTGltaXQ6IG51bGxcbn07XG4iXX0=

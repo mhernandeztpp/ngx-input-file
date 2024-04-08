@@ -1,6 +1,6 @@
 {
     "name": "ngx-input-file",
-    "version": "11.0.0",
+    "version": "13.0.0",
     "peerDependencies": {
         "@angular/cdk": "^13.0.0",
         "@angular/material": "^13.0.0",

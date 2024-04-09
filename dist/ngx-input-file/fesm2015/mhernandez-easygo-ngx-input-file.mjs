@@ -559,4 +559,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.11", ngImpo
  */
 
 export { InputFileComponent, InputFileModule, InputFileService };
-//# sourceMappingURL=ngx-input-file.mjs.map
+//# sourceMappingURL=mhernandez-easygo-ngx-input-file.mjs.map

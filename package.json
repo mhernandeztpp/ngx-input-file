@@ -1,36 +1,16 @@
 {
-  "name": "ngx-input-file",
-  "version": "13.0.0",
-  "description": "Angular Input File Component",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rsaenen/ngx-input-file.git"
-  },
-  "author": "Ralf Saenen <ralf.saenen@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/rsaenen/ngx-input-file/issues"
-  },
-  "homepage": "https://github.com/rsaenen/ngx-input-file#readme",
-  "keywords": [
-    "angular",
-    "component",
-    "input",
-    "file",
-    "material",
-    "design",
-    "material design",
-    "icon"
-  ],
+  "name": "ngx-input-file-lib",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "build": "ng build",
     "build:lib": "ng-packagr -p projects/ngx-input-file/ng-package.json",
-    "publish": "npm publish dist/ngx-input-file",
+    "publish": "npm publish --access public dist/ngx-input-file",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "release": "cp README.md dist/ngx-input-file/ && cd dist/ngx-input-file && npm publish --access public"
   },
-  "private": false,
+  "private": true,
   "peerDependencies": {
     "@angular/animations": "^13.0.0",
     "@angular/cdk": "^13.0.0",

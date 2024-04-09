@@ -1,15 +1,36 @@
 {
-    "name": "ngx-input-file",
-    "version": "13.0.0",
-    "peerDependencies": {
-        "@angular/cdk": "^13.0.0",
-        "@angular/material": "^13.0.0",
-        "@angular/animations": "^13.0.0",
-        "@angular/common": "^13.0.0",
-        "@angular/core": "^13.0.0",
-        "@angular/forms": "^13.0.0"
-    },
-    "dependencies": {
-      "tslib": "^2.0.0"
-    }
+  "name": "@mhernandez-easygo/ngx-input-file",
+  "description": "Angular Input File Component",
+  "version": "13.0.0",
+  "author": "Mario Hernandez <mhernandez@easygosa.net>",
+  "keywords": [
+    "angular",
+    "component",
+    "input",
+    "file",
+    "material",
+    "design",
+    "material design",
+    "icon"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mhernandeztpp/ngx-input-file",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhernandeztpp/ngx-input-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhernandeztpp/ngx-input-file/issues"
+  },
+  "peerDependencies": {
+    "@angular/cdk": "^13.0.0",
+    "@angular/material": "^13.0.0",
+    "@angular/animations": "^13.0.0",
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "@angular/forms": "^13.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
 }

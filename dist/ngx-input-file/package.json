@@ -1,6 +1,27 @@
 {
-  "name": "ngx-input-file",
+  "name": "@mhernandez-easygo/ngx-input-file",
+  "description": "Angular Input File Component",
   "version": "13.0.0",
+  "author": "Mario Hernandez <mhernandez@easygosa.net>",
+  "keywords": [
+    "angular",
+    "component",
+    "input",
+    "file",
+    "material",
+    "design",
+    "material design",
+    "icon"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mhernandeztpp/ngx-input-file",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhernandeztpp/ngx-input-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhernandeztpp/ngx-input-file/issues"
+  },
   "peerDependencies": {
     "@angular/cdk": "^13.0.0",
     "@angular/material": "^13.0.0",
@@ -12,23 +33,23 @@
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "module": "fesm2015/ngx-input-file.mjs",
-  "es2020": "fesm2020/ngx-input-file.mjs",
-  "esm2020": "esm2020/ngx-input-file.mjs",
-  "fesm2020": "fesm2020/ngx-input-file.mjs",
-  "fesm2015": "fesm2015/ngx-input-file.mjs",
-  "typings": "ngx-input-file.d.ts",
+  "module": "fesm2015/mhernandez-easygo-ngx-input-file.mjs",
+  "es2020": "fesm2020/mhernandez-easygo-ngx-input-file.mjs",
+  "esm2020": "esm2020/mhernandez-easygo-ngx-input-file.mjs",
+  "fesm2020": "fesm2020/mhernandez-easygo-ngx-input-file.mjs",
+  "fesm2015": "fesm2015/mhernandez-easygo-ngx-input-file.mjs",
+  "typings": "mhernandez-easygo-ngx-input-file.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./ngx-input-file.d.ts",
-      "esm2020": "./esm2020/ngx-input-file.mjs",
-      "es2020": "./fesm2020/ngx-input-file.mjs",
-      "es2015": "./fesm2015/ngx-input-file.mjs",
-      "node": "./fesm2015/ngx-input-file.mjs",
-      "default": "./fesm2020/ngx-input-file.mjs"
+      "types": "./mhernandez-easygo-ngx-input-file.d.ts",
+      "esm2020": "./esm2020/mhernandez-easygo-ngx-input-file.mjs",
+      "es2020": "./fesm2020/mhernandez-easygo-ngx-input-file.mjs",
+      "es2015": "./fesm2015/mhernandez-easygo-ngx-input-file.mjs",
+      "node": "./fesm2015/mhernandez-easygo-ngx-input-file.mjs",
+      "default": "./fesm2020/mhernandez-easygo-ngx-input-file.mjs"
     }
   },
   "sideEffects": false
